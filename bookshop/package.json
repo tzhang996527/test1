@@ -11,5 +11,18 @@
   },
   "scripts": {
     "start": "npx cds run"
+  },
+  "devDependencies": {
+    "sqlite3": "^5.0.0"
+  },
+  "cds": {
+    "requires": {
+      "db": {
+        "kind": "sqlite",
+        "credentials": {
+          "database": "my.db"
+        }
+      }
+    }
   }
 }
