@@ -19,7 +19,8 @@ const books = new Vue ({
 
         async fetch (_filter='') {
             const columns = 'ID,title,author,price,stock', details = 'genre,currency'
-            const {data} = await GET(`/Books?$select=${columns}&$expand=${details}&${_filter}`)
+            //const {data} = await GET(`/Books?$select=${columns}&$expand=${details}&${_filter}`)
+            const {data} = await GET(`/Books?$select=${columns}&$expand=${details}`)
             books.list = data.value
         },
 
