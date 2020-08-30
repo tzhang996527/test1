@@ -1,0 +1,18 @@
+{
+  "name": "CAPTST",
+  "version": "1.0.0",
+  "description": "",
+  "main": "world.js",
+  "dependencies": {
+    "aysnc": "^0.0.1-security",
+    "htmlparser": "^1.7.7",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

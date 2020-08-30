@@ -1,0 +1,2 @@
+Of course ML Has Monads!
+http://lambda-the-ultimate.org/node/4306
